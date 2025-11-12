@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NUMISMÁTICA GOIÂNIA</title>
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Ícones Google -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- =======================
+       CABEÇALHO (HEADER)
+  ======================= -->
+  <div id="header"></div>
+
+
+  <!-- ====== CONTEÚDO PRINCIPAL ====== -->
+  <main id="main-content" class="site-main" role="main" tabindex="-1">
+    <div class="layout">
+
+            <!-- MENU LATERAL -->
+      <!-- nav.html será inserido -->
+      <div id="nav"></div>
+      
+
+      <!-- ====== SEÇÃO DE CONTEÚDO ====== -->
+      <section class="content">
+        <h2 class="section-title">Categorias mais populares</h2>
+
+        <!-- Barra de categorias e filtro -->
+        <div class="categorias-filtro-container">
+
+          <!-- Categorias -->
+          <div class="video-categories">
+            <a href="#" class="category">Batman</a>
+            <a href="#" class="category">Superman</a>
+            <a href="#" class="category">Copa do Mundo</a>
+            <a href="#" class="category">Disney</a>
+            <a href="#" class="category">Star Wars</a>
+            <a href="#" class="category">Hot Wheels</a>
+            <a href="#" class="category">Hasbro</a>
+            <a href="#" class="category">Mattel</a>
+          </div>
+
+          <!-- Filtro "Ordenar por" -->
+          <div class="filtro-ordenar">
+            <label for="ordenar">Ordenar por:</label>
+            <select id="ordenar" name="ordenar">
+              <option value="menor-preco">Menor preço</option>
+              <option value="maior-preco">Maior preço</option>
+              <option value="mais-antigo">Mais antigo</option>
+              <option value="mais-recente">Mais recente</option>
+              <option value="mais-vendidos">Mais vendidos</option>
+              <option value="mais-relevantes">Mais relevantes</option>
+              <option value="a-z">Ordem Alfabética (A-Z)</option>
+              <option value="z-a">Ordem Alfabética (Z-A)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- ====== GRID DE PRODUTOS ====== -->
+        <ul class="video-grid">
+
+          <!-- Item 1 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cole- ingresso copa.jpg" alt="Ingresso Final Copa do Mundo Japão e Coreia 2002, BR VS ALE">
+            </div>
+            <div class="video-info">
+              <h3>Ingresso Final Copa do Mundo Japão e Coreia 2002, BR VS ALE</h3>
+              <p class="author">R$ 900,00</p>
+              <p class="meta">Ano de 2002 • Fifa</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Item 2 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cole - poster sw.jpg" alt="Poster Star Wars Episódio 4, Autografado por Harrison Ford">
+            </div>
+            <div class="video-info">
+              <h3>Poster Star Wars Episódio 4, Autografado por Harrison Ford</h3>
+              <p class="author">R$ 8.100,00</p>
+              <p class="meta">Ano de 1977 • George Lucas Film</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Item 3 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cole - mj.jpg" alt="Carta NBA Legends Basketball Card, Michael Jordan">
+            </div>
+            <div class="video-info">
+              <h3>Carta NBA Legends Basketball Card, Michael Jordan</h3>
+              <p class="author">R$ 190,00</p>
+              <p class="meta">Ano de 2000 • Upper Deck</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Item 4 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/pelucia mascote copa.jfif" alt="Pelúcia Mascote Footix Copa do Mundo França 1998">
+            </div>
+            <div class="video-info">
+              <h3>Pelúcia Mascote Footix Copa do Mundo França 1998</h3>
+              <p class="author">R$ 320,00</p>
+              <p class="meta">Ano de 1998 • Fifa</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Item 5 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/batman brinqudo.webp" alt="Boneco Vintage Batman Classic Tv Series">
+            </div>
+            <div class="video-info">
+              <h3>Boneco Vintage Batman Classic Tv Series</h3>
+              <p class="author">R$ 640,00</p>
+              <p class="meta">Ano de 1966 • Figures for fun</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Item 6 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cole-star wars.webp" alt="Nave Vintage Tie Fighter Star Wars">
+            </div>
+            <div class="video-info">
+              <h3>Nave Vintage Tie Fighter Star Wars</h3>
+              <p class="author">R$ 520,00</p>
+              <p class="meta">Ano desconhecido • Kenner</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Item 7 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cole- taça qatar.webp" alt="Souvenir Taça Copa do Mundo Qatar 2022">
+            </div>
+            <div class="video-info">
+              <h3>Souvenir Taça Copa do Mundo Qatar 2022</h3>
+              <p class="author">R$ 190,00</p>
+              <p class="meta">Ano de 2022 • Fifa</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Item 8 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cole- album copa.jpg" alt="Álbum Copa do Mundo México 1986">
+            </div>
+            <div class="video-info">
+              <h3>Álbum Copa do Mundo México 1986</h3>
+              <p class="author">R$ 540,00</p>
+              <p class="meta">Ano de 1986 • Panini</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+    </div>
+
+    <!-- ====== ELEMENTOS DECORATIVOS ====== -->
+    <div class="sidebar-gif-container">
+      <img src="img/PAGSGURO.gif" alt="GIF decorativo" />
+    </div>
+
+    <div class="sidebar-image-container">
+      <a href="faleconosco.html">
+        <img src="img/contatos numismatica.png" alt="Imagem decorativa de contato" />
+      </a>
+    </div>
+  </main>
+
+  <!-- =======================
+       RODAPÉ DINÂMICO
+  ======================= -->
+  <div id="footer"></div>
+
+ <!-- =======================
+       SCRIPT DE COMPONENTES
+  ======================= -->
+  <script src= "js/loadComponents.js" ></script>
+
+</body>
+</html>

@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NUMISMÁTICA GOIÂNIA</title>
+
+  <!-- Estilos e ícones -->
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- ===================== CABEÇALHO ===================== -->
+  <header class="site-header" role="banner">
+    <div class="header-inner">
+
+      <!-- Logo e título -->
+      <div class="logo-container">
+        <img src="img/LOGO MOEDA.jpg" alt="Logo Casa das Moedas" class="logo-image">
+        <h1 class="site-title">NUMISMÁTICA GOIÂNIA</h1>
+      </div>
+
+      <!-- Barra de pesquisa -->
+      <div class="search-container">
+        <input type="text" placeholder="Pesquisar ..." aria-label="Pesquisar ..." class="search-bar">
+      </div>
+
+      <!-- Ações do cabeçalho -->
+      <div class="header-actions">
+        <a href="#" class="login-button">Login</a>
+        <a href="#" class="register-button">Cadastre-se</a>
+        <a href="#" class="cart-icon" aria-label="Carrinho de compras">
+          <span class="material-icons">shopping_cart</span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <!-- ===================== CONTEÚDO PRINCIPAL ===================== -->
+  <main id="main-content" class="site-main" role="main" tabindex="-1">
+    <div class="layout">
+
+      <!-- ===== MENU LATERAL ===== -->
+      <aside class="sidebar-left" role="navigation" aria-label="Menu principal">
+        <ul>
+          <li><a href="index.html"><span class="material-icons icon">home</span>Início</a></li>
+          <li><a href="moedas.html"><span class="material-icons icon">currency_exchange</span>Moedas</a></li>
+          <li><a href="cedulas.html"><span class="material-icons icon">payments</span>Cédulas</a></li>
+          <li><a href="selos.html"><span class="material-icons icon">local_post_office</span>Selos</a></li>
+          <li><a href="postais.html"><span class="material-icons icon">collections</span>Cartões Postais</a></li>
+          <li><a href="livros.html"><span class="material-icons icon">menu_book</span>Gibis e Livros</a></li>
+          <li><a href="colecionaveis.html"><span class="material-icons icon">toys</span>Colecionáveis</a></li>
+          <li><a href="acessorios.html"><span class="material-icons icon">shopping_bag</span>Acessórios para a coleção</a></li>
+          <li><a href="faleconosco.html"><span class="material-icons icon">call</span>Fale Conosco</a></li>
+        </ul>
+      </aside>
+
+      <!-- ===== SEÇÃO DE CONTATO ===== -->
+      <section class="content">
+
+        <!-- Container para card de contato e formulário lado a lado -->
+        <div class="contact-section">
+
+          <!-- ==== CARD DE INFORMAÇÕES DE CONTATO ==== -->
+          <div class="contact-card">
+            <p>Entre em contato com a <strong>Numismática Goiânia</strong> pelos canais abaixo:</p>
+            
+            <ul class="contact-list">
+              <li>
+                <span class="material-icons contact-icon">phone</span>
+                WhatsApp: <a href="https://wa.me/5562999657895" target="_blank">(62) 99965-7895</a>
+              </li>
+              <li>
+                <span class="material-icons contact-icon">email</span>
+                E-mail: <a href="mailto:numismaticagoiania@gmail.com">numismaticagoiania@gmail.com</a>
+              </li>
+              <li>
+                <span class="material-icons contact-icon">photo_camera</span>
+                Instagram: <a href="https://instagram.com/numismaticago" target="_blank">@numismaticago</a>
+              </li>
+            </ul>
+
+            <p>Nosso atendimento é rápido — entre em contato para dúvidas, aquisições ou vendas de coleções.</p>
+          </div>
+
+          <!-- ==== FORMULÁRIO DE CONTATO ==== -->
+          <div class="contact-form">
+            <form>
+              
+              <!-- Campo Nome -->
+              <div class="form-group">
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" name="nome">
+              </div>
+
+              <!-- Campo Telefone -->
+              <div class="form-group">
+                <label for="telefone">Telefone:</label>
+                <input type="tel" id="telefone" name="telefone">
+              </div>
+
+              <!-- Campo E-mail -->
+              <div class="form-group">
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" name="email">
+              </div>
+
+              <!-- Campo Mensagem -->
+              <div class="form-group">
+                <label for="mensagem">Sua Mensagem:</label>
+                <textarea id="mensagem" name="mensagem" rows="4"></textarea>
+              </div>
+
+              <!-- Campo de seleção -->
+              <div class="form-group">
+                <label for="informacao">Informação:</label>
+                <select id="informacao" name="informacao">
+                  <option value="consulta">Consulta de Peças</option>
+                  <option value="orcamento">Orçamento</option>
+                  <option value="venda">Venda</option>
+                  <option value="outros">Outros</option>
+                </select>
+              </div>
+
+              <!-- Botão de envio -->
+              <button type="submit" class="submit-button">Enviar</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </div>
+  </main>
+
+  <!-- ===================== RODAPÉ ===================== -->
+  <footer class="site-footer" role="contentinfo">
+    <div class="footer-inner">
+      <p>© 2025 Numismática Goiânia - Todos os direitos reservados ___ Não temos endereço físico - Vendas apenas pelo site</p>
+      <ul class="footer-links">
+        <li><a href="#">Formas de Pagamento</a></li>
+        <li><a href="#">Fretes e Devoluções</a></li>
+        <li><a href="#">Privacidade</a></li>
+        <li><a href="#">Sobre nós</a></li>
+        <li><a href="#">Ajuda</a></li>
+      </ul>
+    </div>
+  </footer>
+
+</body>
+</html>

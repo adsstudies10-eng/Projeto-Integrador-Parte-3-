@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NUMISMÁTICA GOIÂNIA</title>
+
+  <!-- CSS principal -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Ícones do Google Material -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- =======================
+       CABEÇALHO (HEADER)
+  ======================= -->
+  <div id="header"></div>
+
+
+  <!-- ===========================
+       CONTEÚDO PRINCIPAL
+  ============================ -->
+  <main id="main-content" class="site-main" role="main" tabindex="-1">
+    <div class="layout">
+
+            <!-- MENU LATERAL -->
+      <!-- nav.html será inserido -->
+      <div id="nav"></div>
+      
+
+      <!-- ===========================
+           SEÇÃO DE CATEGORIAS E PRODUTOS
+      ============================ -->
+      <section class="content">
+        <h2 class="section-title">Categorias mais populares</h2>
+
+        <!-- Filtro e categorias -->
+        <div class="categorias-filtro-container">
+
+          <!-- Categorias -->
+          <div class="video-categories">
+            <a href="#" class="category">Brasil Império</a>
+            <a href="#" class="category">Brasil 1ª República</a>
+            <a href="#" class="category">Cruzeiro e Cruzado</a>
+            <a href="#" class="category">Plano Real</a>
+            <a href="#" class="category">Europa</a>
+            <a href="#" class="category">Dólar</a>
+            <a href="#" class="category">Com Erros de Impressão</a>
+          </div>
+
+          <!-- Filtro "Ordenar por" -->
+          <div class="filtro-ordenar">
+            <label for="ordenar">Ordenar por:</label>
+            <select id="ordenar" name="ordenar">
+              <option value="menor-preco">Menor preço</option>
+              <option value="maior-preco">Maior preço</option>
+              <option value="mais-antigo">Mais antigo</option>
+              <option value="mais-recente">Mais recente</option>
+              <option value="mais-vendidos">Mais vendidos</option>
+              <option value="mais-relevantes">Mais relevantes</option>
+              <option value="ordem-az">Ordem Alfabética (A-Z)</option>
+              <option value="ordem-za">Ordem Alfabética (Z-A)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- ===========================
+             GRID DE PRODUTOS
+        ============================ -->
+        <ul class="video-grid">
+
+          <!-- CARD 1 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cedula 2 dolares.jpg" alt="Cédula de 2 Dólares Americanos, USD">
+            </div>
+            <div class="video-info">
+              <h3>Cédula de 2 Dólares Americanos, USD</h3>
+              <p class="author">R$ 40,00</p>
+              <p class="meta">2017 • 75% de algodão e 25% de linho</p>
+              <button class="add-to-cart"><span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho</button>
+            </div>
+          </li>
+
+          <!-- CARD 2 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/CEDULA GETÚLIO.jpg" alt="Cédula de 10 Cruzeiros, 2ª Estampa">
+            </div>
+            <div class="video-info">
+              <h3>Cédula de 10 Cruzeiros, 2ª Estampa</h3>
+              <p class="author">R$ 49,80</p>
+              <p class="meta">Ano de 1962 • Papel Fiduciário</p>
+              <button class="add-to-cart"><span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho</button>
+            </div>
+          </li>
+
+          <!-- CARD 3 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cedula machado de assis.jpg" alt="Cédula de 1000 Cruzados, Machado de Assis">
+            </div>
+            <div class="video-info">
+              <h3>Cédula de 1.000 Cruzados, Machado de Assis</h3>
+              <p class="author">R$ 7,00</p>
+              <p class="meta">Ano de 1987 • Papel de Fibra de Algodão</p>
+              <button class="add-to-cart"><span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho</button>
+            </div>
+          </li>
+
+          <!-- CARD 4 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cedula 1 rublo.webp" alt="Cédula de 1 rublo, URSS">
+            </div>
+            <div class="video-info">
+              <h3>Cédula de 1 rublo, URSS</h3>
+              <p class="author">R$ 17,00</p>
+              <p class="meta">Ano de 1961 • Papel de Fibra de Algodão</p>
+              <button class="add-to-cart"><span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho</button>
+            </div>
+          </li>
+
+          <!-- CARD 5 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/CEDULA ALEMANHA.jpg" alt="Cédula de 20 Reichsmark, Alemanha do 2ª Reich">
+            </div>
+            <div class="video-info">
+              <h3>Cédula de 20 Reichsmark, Alemanha do 2ª Reich</h3>
+              <p class="author">R$ 18,00</p>
+              <p class="meta">Ano de 1939 • Fibras de algodão e linho</p>
+              <button class="add-to-cart"><span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho</button>
+            </div>
+          </li>
+
+          <!-- CARD 6 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cedula coreia.jpg" alt="Cédula de 50 won, Coreia do Norte">
+            </div>
+            <div class="video-info">
+              <h3>Cédula de 50 won, Coreia do Norte</h3>
+              <p class="author">R$ 10,00</p>
+              <p class="meta">Ano de 2018 • Indefinido</p>
+              <button class="add-to-cart"><span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho</button>
+            </div>
+          </li>
+
+          <!-- CARD 7 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cedula jordania.jpg" alt="Cédula de 1 Dinar Jordaniano, Jordânia">
+            </div>
+            <div class="video-info">
+              <h3>Cédula de 1 Dinar Jordaniano, Jordânia</h3>
+              <p class="author">R$ 30,00</p>
+              <p class="meta">Ano de 2017 • Indefinido</p>
+              <button class="add-to-cart"><span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho</button>
+            </div>
+          </li>
+
+          <!-- CARD 8 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cedula iugoslávia.jpg" alt="Cédula de 1.000 Dinara, Antiga Iugoslávia">
+            </div>
+            <div class="video-info">
+              <h3>Cédula de 1.000 Dinara, Antiga Iugoslávia</h3>
+              <p class="author">R$ 15,00</p>
+              <p class="meta">Ano de 1981 • Indefinido</p>
+              <button class="add-to-cart"><span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho</button>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+    </div>
+
+    <!-- ===========================
+         IMAGENS DECORATIVAS LATERAIS
+    ============================ -->
+    <div class="sidebar-gif-container">
+      <img src="img/PAGSGURO.gif" alt="GIF decorativo" />
+    </div>
+
+    <div class="sidebar-image-container">
+      <a href="faleconosco.html">
+        <img src="img/contatos numismatica.png" alt="Imagem decorativa" />
+      </a>
+    </div>
+  </main>
+
+  <!-- =======================
+       RODAPÉ DINÂMICO
+  ======================= -->
+  <div id="footer"></div>
+
+ <!-- =======================
+       SCRIPT DE COMPONENTES
+  ======================= -->
+  <script src= "js/loadComponents.js" ></script>
+
+</body>
+</html>

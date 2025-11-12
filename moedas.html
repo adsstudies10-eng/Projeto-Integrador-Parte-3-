@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NUMISMÁTICA GOIÂNIA</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+
+  <!-- =======================
+       CABEÇALHO (HEADER)
+  ======================= -->
+  <div id="header"></div>
+
+
+  <!-- ====== CONTEÚDO PRINCIPAL ====== -->
+  <main id="main-content" class="site-main" role="main" tabindex="-1">
+    <div class="layout">
+
+            <!-- MENU LATERAL -->
+      <!-- nav.html será inserido -->
+      <div id="nav"></div>
+      
+
+      <!-- ====== SEÇÃO DE CONTEÚDO ====== -->
+      <section class="content">
+        <h2 class="section-title">Categorias mais populares</h2>
+
+        <!-- Filtro e categorias -->
+        <div class="categorias-filtro-container">
+
+          <!-- Barra de categorias -->
+          <div class="video-categories">
+            <a href="#" class="category">Brasil Império</a>
+            <a href="#" class="category">Brasil 1ª República</a>
+            <a href="#" class="category">Plano Real</a>
+            <a href="#" class="category">2ª Guerra Mundial</a>
+            <a href="#" class="category">União Soviética</a>
+            <a href="#" class="category">Império Romano</a>
+          </div>
+
+          <!-- Filtro "Ordenar por" -->
+          <div class="filtro-ordenar">
+            <label for="ordenar">Ordenar por:</label>
+            <select id="ordenar" name="ordenar">
+              <option value="menor-preco">Menor preço</option>
+              <option value="maior-preco">Maior preço</option>
+              <option value="mais-antigo">Mais antigo</option>
+              <option value="mais-recente">Mais recente</option>
+              <option value="mais-vendidos">Mais vendidos</option>
+              <option value="mais-relevantes">Mais relevantes</option>
+              <option value="a-z">Ordem Alfabética (A-Z)</option>
+              <option value="z-a">Ordem Alfabética (Z-A)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- ====== GRID DE PRODUTOS ====== -->
+        <ul class="video-grid">
+
+          <!-- Card 1 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/Moeda imperio.webp" alt="Moeda Antiga do Brasil Império 20.000 Réis">
+            </div>
+            <div class="video-info">
+              <h3>Moeda Antiga do Brasil Império 20.000 Réis</h3>
+              <p class="author">R$ 1.000</p>
+              <p class="meta">Ano de 1851 • Ouro e Prata</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Card 2 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/Denário de prata.webp" alt="Denário de Prata, República Romana">
+            </div>
+            <div class="video-info">
+              <h3>Denário de Prata, República Romana</h3>
+              <p class="author">R$ 2.000</p>
+              <p class="meta">211 A.C • Prata</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Card 3 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/entrega bandeira.jfif" alt="Moeda de R$ 1 Entrega Da Bandeira Olimpíadas Rio 2016">
+            </div>
+            <div class="video-info">
+              <h3>Moeda de R$ 1, Entrega Da Bandeira Olimpíadas Rio 2016</h3>
+              <p class="author">R$ 280,00</p>
+              <p class="meta">Ano de 2012 • Bronze e Aço inoxidável</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Card 4 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/direitos humanos.jpg" alt="Moeda de R$ 1 Declaração Universal dos Direitos Humanos">
+            </div>
+            <div class="video-info">
+              <h3>Moeda de R$ 1, Declaração Universal dos Direitos Humanos</h3>
+              <p class="author">R$ 750,00</p>
+              <p class="meta">Ano de 1998 • Bronze e Aço inoxidável</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Card 5 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/rublo urss.jfif" alt="URSS 1 Rublo 30º Aniversário Fim da Segunda Guerra Mundial">
+            </div>
+            <div class="video-info">
+              <h3>URSS, 1 Rublo — 30º aniversário Fim da Segunda Guerra Mundial</h3>
+              <p class="author">R$ 30,00</p>
+              <p class="meta">Ano de 1975 • Aço revestido de latão</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Card 6 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/bacen moeda.webp" alt="Moeda de R$ 1, 60 Anos do Banco Central">
+            </div>
+            <div class="video-info">
+              <h3>Moeda de R$ 1 — 60 Anos do Banco Central</h3>
+              <p class="author">R$ 5,00</p>
+              <p class="meta">Ano de 2025 • Bronze e Aço inoxidável</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Card 7 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/moeda alemanha.jfif" alt="Moeda Alemanha 2º Reich, 2 Reichsmark">
+            </div>
+            <div class="video-info">
+              <h3>Moeda Alemanha 2º Reich — 2 Reichsmark</h3>
+              <p class="author">R$ 120,00</p>
+              <p class="meta">Ano de 1939 • Prata</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- Card 8 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/moeda tom.jfif" alt="Moeda de R$ 1 Mascote Tom Rio 2016">
+            </div>
+            <div class="video-info">
+              <h3>Moeda de R$ 1 — Mascote Tom Rio 2016</h3>
+              <p class="author">R$ 18,00</p>
+              <p class="meta">Ano de 2016 • Bronze e Aço inoxidável</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+        </ul>
+      </section>
+
+    </div>
+
+    <!-- ====== ELEMENTOS DECORATIVOS LATERAIS ====== -->
+    <div class="sidebar-gif-container">
+      <img src="img/PAGSGURO.gif" alt="GIF decorativo">
+    </div>
+
+    <div class="sidebar-image-container">
+      <a href="faleconosco.html">
+        <img src="img/contatos numismatica.png" alt="Imagem decorativa de contato">
+      </a>
+    </div>
+
+  </main>
+
+  <!-- =======================
+       RODAPÉ DINÂMICO
+  ======================= -->
+  <div id="footer"></div>
+
+ <!-- =======================
+       SCRIPT DE COMPONENTES
+  ======================= -->
+  <script src= "js/loadComponents.js" ></script>
+
+</body>
+</html>

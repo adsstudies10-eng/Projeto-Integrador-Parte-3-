@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>NUMISMÁTICA GOIÂNIA</title>
+
+  <!-- Estilos -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Ícones do Google -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+
+<body>
+
+  <!-- =======================
+       CABEÇALHO (HEADER)
+  ======================= -->
+  <div id="header"></div>
+
+
+  <!-- =======================
+       CONTEÚDO PRINCIPAL
+  ======================= -->
+  <main id="main-content" class="site-main" role="main" tabindex="-1">
+    <div class="layout">
+
+      <!-- MENU LATERAL -->
+      <!-- nav.html será inserido -->
+      <div id="nav"></div>
+
+
+      <!-- CONTEÚDO CENTRAL -->
+      <section class="content">
+        <h2 class="section-title">Bem vindo à Numismática Goiânia</h2>
+
+        <!-- =======================
+             CATEGORIAS E FILTROS
+        ======================= -->
+        <div class="categorias-filtro-container">
+
+          <!-- Barra de categorias -->
+          <div class="video-categories">
+            <a href="#" class="category">Em Alta</a>
+            <a href="#" class="category">Acabaram de Chegar</a>
+            <a href="#" class="category">Em Promoção</a>
+            <a href="#" class="category">Menos de 5 reais</a>
+            <a href="#" class="category">Destaques do Mês</a>
+            <a href="#" class="category">Destaques da Semana</a>
+          </div>
+
+          <!-- Filtro Ordenar por -->
+          <div class="filtro-ordenar">
+            <label for="ordenar">Ordenar por:</label>
+            <select id="ordenar" name="ordenar">
+              <option value="menor-preco">Menor preço</option>
+              <option value="maior-preco">Maior preço</option>
+              <option value="mais-antigo">Mais antigo</option>
+              <option value="mais-recente">Mais recente</option>
+              <option value="mais-recente">Mais vendidos</option>
+              <option value="mais-recente">Mais relevantes</option>
+              <option value="mais-recente">Ordem Alfabética (A-Z)</option>
+              <option value="mais-recente">Ordem Alfabética (Z-A)</option>
+            </select>
+          </div>
+        </div>
+
+
+        <!-- =======================
+             GRID DE PRODUTOS (VÍDEOS)
+        ======================= -->
+        <ul class="video-grid">
+
+          <!-- CARD 1 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/Moeda imperio.webp" alt="Moeda Antiga do Brasil Império 20.000 Réis">
+            </div>
+            <div class="video-info">
+              <h3>Moeda Antiga do Brasil Império 20.000 Réis</h3>
+              <p class="author">R$ 1.000</p>
+              <p class="meta">Ano de 1851 • Ouro e Prata</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>
+                Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- CARD 2 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cole- ingresso copa.jpg" alt="Ingresso Final Copa do Mundo Japão e Coreia 2002, BR VS ALE">
+            </div>
+            <div class="video-info">
+              <h3>Ingresso Final Copa do Mundo Japão e Coreia 2002, BR VS ALE</h3>
+              <p class="author">R$ 900,00</p>
+              <p class="meta">Ano de 2002 • Fifa</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>
+                Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- CARD 3 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/CEDULA GETÚLIO.jpg" alt="Cédula de 10 Cruzeiros, 2ª Estampa">
+            </div>
+            <div class="video-info">
+              <h3>Cédula de 10 Cruzeiros, 2ª Estampa</h3>
+              <p class="author">R$ 49,80</p>
+              <p class="meta">Ano de 1962 • Papel Fiduciário</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>
+                Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- CARD 4 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/Denário de prata.webp" alt="Denário de Prata, República Romana">
+            </div>
+            <div class="video-info">
+              <h3>Denário de Prata, República Romana</h3>
+              <p class="author">R$ 2.000</p>
+              <p class="meta">211 A.C • Prata</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>
+                Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- CARD 5 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/selo ayrton.jpg" alt="Selo comemorativo Ayrton Senna, Carimbado">
+            </div>
+            <div class="video-info">
+              <h3>Selo comemorativo Ayrton Senna, Carimbado</h3>
+              <p class="author">R$ 40,00</p>
+              <p class="meta">Ano de 2000 • Correios</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>
+                Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- CARD 6 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/livros - hulk.jpg" alt="Em Inglês - O Incrível Hulk, Edição de Aniversário 30 anos, Marvel Comics">
+            </div>
+            <div class="video-info">
+              <h3>Em Inglês - O Incrível Hulk, Edição de Aniversário 30 anos, Marvel Comics</h3>
+              <p class="author">R$ 110,00</p>
+              <p class="meta">Ano de 1992 • Marvel Comics</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>
+                Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- CARD 7 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/postal -ny.jpg" alt="Cartão Postal Famoso Greetings From New York, EUA">
+            </div>
+            <div class="video-info">
+              <h3>Cartão Postal Famoso Greetings From New York, EUA</h3>
+              <p class="author">R$ 38,00</p>
+              <p class="meta">Ano indefinido • Indefinido</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>
+                Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+
+          <!-- CARD 8 -->
+          <li class="video-card">
+            <div class="video-thumb">
+              <img src="img/cedula 2 dolares.jpg" alt="Cédula de 2 Dólares Americanos, USD">
+            </div>
+            <div class="video-info">
+              <h3>Cédula de 2 Dólares Americanos, USD</h3>
+              <p class="author">R$ 40,00</p>
+              <p class="meta">2017 • 75% de algodão e 25% de linho</p>
+              <button class="add-to-cart">
+                <span class="material-icons">add_shopping_cart</span>
+                Adicionar ao carrinho
+              </button>
+            </div>
+          </li>
+        </ul>
+      </section>
+
+    </div>
+
+
+    <!-- =======================
+         ELEMENTOS DECORATIVOS
+    ======================= -->
+    <div class="sidebar-gif-container">
+      <img src="img/PAGSGURO.gif" alt="GIF decorativo" />
+    </div>
+
+    <div class="sidebar-image-container">
+      <a href="faleconosco.html">
+        <img src="img/contatos numismatica.png" alt="Imagem decorativa" />
+      </a>
+    </div>
+
+  </main>
+
+
+  <!-- =======================
+       RODAPÉ DINÂMICO
+  ======================= -->
+  <div id="footer"></div>
+
+ <!-- =======================
+       SCRIPT DE COMPONENTES
+  ======================= -->
+  <script src= "js/loadComponents.js" ></script>
+
+</body>
+</html>
+
+
+
