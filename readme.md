@@ -258,6 +258,18 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 
 - Data de Publicação: 17/11/2025
 
+## Otimizações Realizadas
+
+- Revisamos a estrutura final do site para garantir organização e consistência.
+
+- Otimizamos todas as imagens utilizando o TinyPNG.
+
+- Minificamos o arquivo CSS com o CSS Minifier.
+
+- Revisamos os metadados essenciais para melhorar SEO e compatibilidade.
+
+- Criamos e aplicamos um favicon para reforçar a identidade visual.
+
 
 
 
