@@ -250,4 +250,12 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 
 # Numismática Goiânia — Loja de Colecionáveis Online 🪙 (Projeto Integrador Parte 3)
 
+## Acesso ao site
+
+- Link do GitHub Pages: https://adsstudies10-eng.github.io/Projeto-Integrador-Parte-3-/
+
+- Captura de Tela do Site Publicado: ![]
+
+- Data de Publicação: 17/11/2025
+
 
