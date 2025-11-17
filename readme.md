@@ -254,7 +254,7 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 
 - Link do GitHub Pages: https://adsstudies10-eng.github.io/Projeto-Integrador-Parte-3-/
 
-- Captura de Tela do Site Publicado: ![Captura de Tela](Projeto-Integrador-Parte-3-/img/Print Captura Numismática Goiânia.jpg).
+- Captura de Tela do Site Publicado: [Captura de Tela](img/Print Captura Numismática Goiânia.jpg)
 
 - Data de Publicação: 17/11/2025
 
@@ -274,7 +274,10 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 
 - Testamos o site nos navegadores Brave, Firefox, Chrome e Edge, e ele apresentou ótimo desempenho em todos. Também realizamos testes em um computador e em um iPhone 14, garantindo que tudo funcionasse corretamente em ambos os dispositivos.
 
-- [Abrir pasta de imagens](img/)
+- [Clique para ver o funcionamento da página nos diferentes navegadores](docs/testes-navegadores)
+
+- [Clique para ver a responsividade da página nos diferentes dispositivos](docs/testes-responsividade)
+
 
 
 
