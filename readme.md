@@ -270,6 +270,11 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 
 - Criamos e aplicamos um favicon para reforçar a identidade visual.
 
+## Testes Realizados
+
+- Testamos o site nos navegadores Brave, Firefox, Chrome e Edge, e ele apresentou ótimo desempenho em todos. Também realizamos testes em um computador e em um iPhone 14, garantindo que tudo funcionasse corretamente em ambos os dispositivos.
+
+- [Abrir pasta de imagens](img/)
 
 
 
