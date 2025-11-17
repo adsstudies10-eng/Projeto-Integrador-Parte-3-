@@ -254,7 +254,7 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 
 - Link do GitHub Pages: https://adsstudies10-eng.github.io/Projeto-Integrador-Parte-3-/
 
-- Captura de Tela do Site Publicado: [Captura de Tela](img/PrintCapturaNumismáticaGoiânia.jpg)
+- Captura de Tela do Site Publicado: [Captura de Tela](img/Printnumismatica.jpg)
 
 - Data de Publicação: 17/11/2025
 
@@ -277,6 +277,7 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 - [Clique para ver o funcionamento da página nos diferentes navegadores](docs/testes-navegadores)
 
 - [Clique para ver a responsividade da página nos diferentes dispositivos](docs/testes-responsividade)
+
 
 
 
