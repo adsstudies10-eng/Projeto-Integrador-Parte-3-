@@ -279,6 +279,11 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 - [Clique para ver a responsividade da página nos diferentes dispositivos](docs/testes-responsividade)
 
 
+## Reflexão Individual
+
+### Pedro Augusto
+
+-
 
 
 
