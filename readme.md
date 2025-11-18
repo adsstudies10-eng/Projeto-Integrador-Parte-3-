@@ -283,11 +283,35 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 
 ### Pedro Augusto
 
--
+- Aprendizados Técnicos:
+
+  Ao longo do desenvolvimento do código, a área em que mais evoluí foi, sem dúvida, o CSS, nele aprendi a usar o :root para declarar variáveis e tornar o estilo mais organizado, além de trabalhar de forma mais eficiente com cards de produtos, estruturando melhor o layout e o espaçament, além de aprimorar os efeitos de hover com sobreposição, criando interações mais fluidas e visualmente mais interessantes.
+
+  Também aprendi sobre a importância de elaborar uma paleta de cores coerente, ajudando a reforçar a identidade visual do projeto, além do mais, desenvolvi também um entendimento mais profundo sobre a disposição dos elementos na tela, alinhamento e hierarquia visual, garantindo que a navegação fosse agradável e intuitiva. Por último, creio que a responsividade foi outro ponto de conhecimento, pois aprendi a certificar que a página funcionasse bem em diferentes dispositivos.
+
+  Já quanto ao maior desafio de todo o processo, este foi sem dúvidas o ajuste do CSS para que a página ficasse bonita, coerente e equilibrada, respeitando tanto o conteúdo quanto o público-alvo. Porém, ao superar o desafio, observo que o mesmo foi essencial para minha evolução, já que agora, sinto que domino o CSS muito melhor do que antes.
+
+
+- Aprendizados de Processo:
+
+  Creio que o trabalho em dupla foi uma expreriência positiva e que facilitou e acelerou o desenvolvimento do projeto. O principal desafio foi alinhar as ideias e garantir que o estilo do código permanecesse consistente entre nós, para isso dividimos as tarefas de acordo com as aptidões de cada um, por exemplo, eu decidi ficar com o css, pois a parte visual me agrada mais, já o Carlos se encarregou de cuidar da parte documental do trabalho.
+
+  A comunicação constante facilitou a correção de erros no projeto, a revisão das etapas e a troca de ideias para melhorias futuras, o que deixou o processo mais rápido e eficiente. Portanto, creio que o que mais deu certo no nosso trabalho foi justamente essa colaboração constante, onde um completava o trabalho do outro, fazendo com que o  processo fosse mais leve e eficiente.
+
+- Desafios Enfrentados:
+
+  Acredito que o maior desafio do projeto foi ajustar o CSS para que o site ficasse realmente agradável, bonito e responsivo, assim, ajustar cores, espaçamentos, proporções e comportamento dos elementos em diferentes telas exigiu bastante paciência e muitas revisões, porém, superamos esse desafio com testes constantes, revisões em dupla e bastante atenção aos detalhes, ajustando pouco a pouco até chegar a um resultado satisfatório.
+
+  Se pudéssemos voltar no tempo, provavelmente começaríamos a planejar o CSS de forma mais estruturada desde o início, definindo variáveis, padrões de espaçamento e regras de responsividade antes de começar a montar as páginas, acredito que isso teria facilitado bastante o desenvolvimento e evitado retrabalho.
+
 
 ### Carlos Eduardo
 
--
+- Aprendizados Técnicos:
 
 
+- Aprendizados de Processo:
+
+
+- Desafios Enfrentados:
 
