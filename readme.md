@@ -315,3 +315,23 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 
 - Desafios Enfrentados:
 
+
+## Reflexão da Dupla
+
+-
+-
+-
+
+## Próximos Passos e Melhorias Futuras
+
+- Melhorias Técnicas Planejadas:
+
+  Acreditamos que o projeto ainda possa receber algumas melhorias técnicas que tornariam o site mais moderno e funcional, como a implementação de um menu interativo, com animações suaves e abertura lateral em telas menores, facilitando a navegação, além da aplicação de técnicas avançadas de CSS, como animações com keyframes, grid mais elaborado e implementação de um tema claro e escuro, permitindo que o usuário escolha o tema  que preferir.
+  
+- Conhecimentos a Aprofundar:
+  
+  Para dar continuidade ao projeto, desejamos aprofundar nossos conhecimentos em JavaScript avançado, para criar interações mais dinâmicas e recursos inteligentes, como filtros e buscas em tempo real, também pretendemos apronfundar os conhecimentos em CSS, incluindo Flexbox, Grid e animações, para tornar o layout mais fluido e sofisticado. Por último, pretendemos ampliar nosso conhecimento sobre acessibilidade web (WCAG), aplicando boas práticas que garantam uma experiência inclusiva e confortável para todos os usuários.
+  
+- Aplicação em Disciplinas Futuras:
+
+  Acreditamos que a rica experiência com CSS, organização de layout, responsividade e otimização vai servir como base sólida para criar interfaces mais profissionais desde o início, servindo como auxílio para a matéria de Interação Humano Computador - IHC, por exemplo. Já o conhecimento adquirido sobre testes, revisão em dupla e atenção aos detalhes será útil para qualquer trabalho prático que envolva desenvolvimento. Por fim, esperamos que a compreensão sobre usabilidade e experiência do usuário nos ajudará a realizar projetos profissionais mais responsivos e funcionais.
