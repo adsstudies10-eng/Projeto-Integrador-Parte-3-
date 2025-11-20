@@ -309,23 +309,29 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 
 - Aprendizados Técnicos:
 
+Durante esta etapa, aprimorei significativamente a estruturação semântica de páginas HTML, criando múltiplas páginas temáticas como acessorios.html, colecionaveis.html, faleconosco.html e cedulas.html, cada uma com layout consistente e responsivo. Aprofundei o uso de CSS3, centralizando personalizações em style.css, explorando grids e flexbox para alinhar imagens de acessórios, moedas e cédulas em diferentes contextos visuais. O desafio principal foi garantir que imagens de diferentes resoluções (moedas comemorativas, cédulas estrangeiras, acessórios de organização como cápsulas e coin holders) fossem exibidas de modo uniforme, com classes reutilizáveis e padronizadas na folha de estilo. Além disso, melhorei a integração entre páginas por meio de links de navegação clara, incluindo botões de contato e organização de conteúdo visual em galerias adaptáveis.
+
 
 - Aprendizados de Processo:
+
+  O trabalho em dupla foi estruturado por áreas: um focou na aplicação do layout responsivo nas páginas de produtos (utilizando flexbox para galerias de imagens e itens colecionáveis), enquanto o outro concentrou-se no ajuste das seções descritivas e páginas informativas (como a página de contato e as descrições dos itens colecionados). Organizamos o desenvolvimento através de checkpoints: ao concluir seções importantes (como agrupamento de imagens da pasta /img e catálogo visual de moedas), realizávamos revisões mútuas focadas tanto em usabilidade quanto acessibilidade (ex: uso de alt nas imagens e contraste nas cores).
 
 
 - Desafios Enfrentados:
 
+O maior desafio prático foi a padronização visual no grid de exibição – imagens variam muito de proporção e qualidade, exigindo testes e ajustes repetidos no CSS, como definição de max-width, uso estratégico de object-fit: cover e aplicação de sombras para destacar itens valiosos (ex: cédulas antigas e moedas comemorativas). Para solucionar, refatoramos a estrutura das galerias: a escolha de flexbox e grid permitiu melhor adaptação independente do tamanho das imagens inseridas no repositório. Se recomeçássemos, investiríamos mais tempo em padronização dos arquivos de imagem e em prototipação visual no Figma, antes da montagem em HTML.
 
 ## Reflexão da Dupla
 
 - Evolução do projeto:
-  Melhoramos a organização do código, modularizamos os elementos padrões em todas as páginas do site (header, nav e footer), minificamos o CSS, reduzimos o tamanho das imagens para a nota de performance do site no Lighthouse, fizemos melhorias na responsividade de acordo com os feedbacks do Lighthouse e melhoramos a identidade visual do site.
-  Acreditamos que a maior melhoria do projeto foi na parte de organização e modularização do código e na responsividade, pois a identidade visual já estava bem definida desde a Parte 1.
-  Por fim, avaliamos que o projeto final cumpre com os objetivos estabelecidos atendendo a proposta inicial.
 
-  - Feedbacks recebidos:
+  Melhoramos a organização do código, modularizamos os elementos padrões em todas as páginas do site (header, nav e footer), minificamos o CSS, reduzimos o tamanho das imagens   para a nota de performance do site no Lighthouse, fizemos melhorias na responsividade de acordo com os feedbacks do Lighthouse e melhoramos a identidade visual do site.
+  Acreditamos que a maior melhoria do projeto foi na parte de organização e modularização do código e na responsividade, pois a identidade visual já estava bem definida desde    a Parte 1.
+  Por fim, avaliamos que o projeto final cumpre com os objetivos estabelecidos atendendo a proposta inicial.
  
-  - Relevância para o negócio:
+- Relevância para o negócio:
+  
+  Entendemos que o site elaborado realmente agregaria valor ao pequeno negócio, pois oferece uma presença digital clara, organizada e capaz de alcançar clientes que hoje só      encontram a Numismática por meio do Instagram. Se pudéssemos apresentar o projeto ao dono, destacaríamos como o site melhora a visibilidade, transmite profissionalismo,        facilita a navegação pelos produtos e cria uma experiência mais confiável para o cliente, além de demonstrar que o site traria mais receita ao negócio. Também explicaríamos    que o catálogo estruturado, o design limpo e a navegação responsiva ajudam a fortalecer a identidade do negócio e ampliar as vendas. Sem dúvida usaríamos este projeto como     portfólio, porque ele demonstra evolução técnica, domínio de HTML e CSS, preocupação com experiência do usuário e capacidade de construir uma solução completa e funcional.
 
 ## Próximos Passos e Melhorias Futuras
 
@@ -340,4 +346,5 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 - Aplicação em Disciplinas Futuras:
 
   Acreditamos que a rica experiência com CSS, organização de layout, responsividade e otimização vai servir como base sólida para criar interfaces mais profissionais desde o início, servindo como auxílio para a matéria de Interação Humano Computador - IHC, por exemplo. Já o conhecimento adquirido sobre testes, revisão em dupla e atenção aos detalhes será útil para qualquer trabalho prático que envolva desenvolvimento. Por fim, esperamos que a compreensão sobre usabilidade e experiência do usuário nos ajudará a realizar projetos profissionais mais responsivos e funcionais.
+
 
