@@ -318,9 +318,14 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 
 ## Reflexão da Dupla
 
--
--
--
+- Evolução do projeto:
+  Melhoramos a organização do código, modularizamos os elementos padrões em todas as páginas do site (header, nav e footer), minificamos o CSS, reduzimos o tamanho das imagens para a nota de performance do site no Lighthouse, fizemos melhorias na responsividade de acordo com os feedbacks do Lighthouse e melhoramos a identidade visual do site.
+  Acreditamos que a maior melhoria do projeto foi na parte de organização e modularização do código e na responsividade, pois a identidade visual já estava bem definida desde a Parte 1.
+  Por fim, avaliamos que o projeto final cumpre com os objetivos estabelecidos atendendo a proposta inicial.
+
+  - Feedbacks recebidos:
+ 
+  - Relevância para o negócio:
 
 ## Próximos Passos e Melhorias Futuras
 
@@ -335,3 +340,4 @@ O protótipo detalhado do site pode ser acessado pelo link abaixo, permitindo vi
 - Aplicação em Disciplinas Futuras:
 
   Acreditamos que a rica experiência com CSS, organização de layout, responsividade e otimização vai servir como base sólida para criar interfaces mais profissionais desde o início, servindo como auxílio para a matéria de Interação Humano Computador - IHC, por exemplo. Já o conhecimento adquirido sobre testes, revisão em dupla e atenção aos detalhes será útil para qualquer trabalho prático que envolva desenvolvimento. Por fim, esperamos que a compreensão sobre usabilidade e experiência do usuário nos ajudará a realizar projetos profissionais mais responsivos e funcionais.
+
